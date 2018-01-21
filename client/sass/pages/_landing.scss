@@ -1,0 +1,51 @@
+.landing {
+  height: 100vh;
+  background-image: url('/../../public/images/landing_bgi.jpg');
+  background-size: cover;
+  background-position: top;
+  color: $color-white;
+  box-sizing: border-box;
+
+  &__line {
+    height: 100vh;
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary-light, 0.85),
+                    rgba($color-primary-dark, 0.85)
+    );
+    clip-path: polygon(0 30vh, 100% 10vh, 100% 70vh, 0 90vh);
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    & input {
+      width: 30vw;
+      display: block;
+      height: 4rem;
+      border-radius: 0.5rem;
+      animation-name: moveInRight;
+      animation-duration: 0.3s;
+      margin-bottom: 2.5rem;
+      font-size: 2rem;
+    }
+  }
+
+  &__heading--primary {
+    display: block;
+    font-size: 10rem;
+    animation-name: moveInLeft;
+    animation-duration: 0.3s;
+  }
+
+  &__heading--secondary {
+    display: block;
+    font-size: 5rem;
+    animation-name: moveInTop;
+    animation-duration: 0.3s;
+    margin-bottom: -4rem;
+  }
+}

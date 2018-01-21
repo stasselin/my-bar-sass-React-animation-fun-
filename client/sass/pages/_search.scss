@@ -1,0 +1,8 @@
+.search-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  &__cocktail-card {
+    max-width: 20%;
+  }
+}

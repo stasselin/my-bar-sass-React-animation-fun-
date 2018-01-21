@@ -1,0 +1,28 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    animation-name: moveInBottom;
+    animation-duration: 0.3s;
+    padding: 1.5rem 4rem;
+    font-size: 3rem;
+    border-radius: 10rem;
+    trasition: all 0.3s;
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &--white {
+    background-color: $color-white;
+    color: #7851a9;
+  }
+}

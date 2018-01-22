@@ -1,0 +1,23 @@
+.cocktail-title {
+  word-wrap: break-word;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-size: 4rem;
+  line-height: 1.1;
+  transform: skew(0, -3deg);
+  border-bottom: 0;
+  top: -7rem;
+  background-image: linear-gradient(to right, rgba(255, 255, 0, 0.8) 100%, rgba(255, 255, 0, 0.8) 50%);
+  &:before {
+    content: '';
+    width: 5rem;
+    left: 0;
+    top:0;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transform: skew(-5deg);
+    z-index: -1;
+  }
+}

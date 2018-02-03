@@ -27,6 +27,8 @@
     backface-visibility: hidden;
     height: 100%;
     border-radius: .5rem;
+    box-shadow: .3rem .3rem 2rem black;
+
 
 
     &--back {
@@ -34,6 +36,11 @@
       transform: rotateY(180deg);
       color: $color-white;
       font-family: 'Lato', sans-serif;
+      text-align: center;
+      font-size: 2rem;
+      & h3  {
+        border-bottom: .1rem solid $color-white;
+      }
     }
   }
 }

@@ -3,4 +3,9 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   padding: 2rem;
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary-light, .35),
+                  rgba($color-primary-dark, .4)
+  );
 }

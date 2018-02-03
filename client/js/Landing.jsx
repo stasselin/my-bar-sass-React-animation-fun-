@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 const Landing = () => (
   <div className="app">
     <div className="landing">

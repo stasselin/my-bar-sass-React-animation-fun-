@@ -8,7 +8,7 @@
   transform: skew(0, -3deg);
   border-bottom: 0;
   top: -7rem;
-  background-image: linear-gradient(to right, rgba(255, 255, 0, 0.8) 100%, rgba(255, 255, 0, 0.8) 50%);
+  background-image: linear-gradient(to right, rgba($color-yellow, 0.8) 100%, rgba($color-yellow, 0.8) 50%);
   &:before {
     content: '';
     width: 5rem;

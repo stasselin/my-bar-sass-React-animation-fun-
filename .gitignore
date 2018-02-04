@@ -4,3 +4,4 @@ config/dev.js
 client/node_modules
 client/public
 .idea
+client/coverage

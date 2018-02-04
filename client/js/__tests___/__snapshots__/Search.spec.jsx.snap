@@ -1,0 +1,1773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Search />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="nav"
+        >
+          <h1
+            className="nav__brand"
+          >
+            MyBar
+          </h1>
+          <input
+            className="nav__search"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+        </header>,
+        <div
+          className="search-container"
+        >
+          <CocktailCard
+            cocktail={
+              Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93c",
+                "category": "Ordinary Drink",
+                "glass": "Highball glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Lime",
+                "ingredient3": "Angostura bitters",
+                "ingredient4": "Tonic water",
+                "ingredient5": "Ice",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "5 cl ",
+                "measure10": " ",
+                "measure2": "1/2 ",
+                "measure3": "4 dashes ",
+                "measure4": "1 dl Schweppes ",
+                "measure5": "4 ",
+                "measure6": " ",
+                "measure7": " ",
+                "measure8": " ",
+                "measure9": " ",
+                "name": "Long vodka",
+                "recipe": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
+                "slug": "long-vodka",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              }
+            }
+          />
+          <CocktailCard
+            cocktail={
+              Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93e",
+                "category": "Homemade Liqueur",
+                "glass": "Collins Glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
+                "ingredient1": "Water",
+                "ingredient10": "",
+                "ingredient2": "Sugar",
+                "ingredient3": "Coffee",
+                "ingredient4": "Vanilla",
+                "ingredient5": "Vodka",
+                "ingredient6": "Caramel coloring",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 cups ",
+                "measure10": "
+",
+                "measure2": "2 cups white ",
+                "measure3": "1/2 cup instant ",
+                "measure4": "1/2 ",
+                "measure5": "1 1/2 cup ",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "
+",
+                "measure9": "
+",
+                "name": "Coffee-Vodka",
+                "recipe": "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+                "slug": "coffee-vodka",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              }
+            }
+          />
+          <CocktailCard
+            cocktail={
+              Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93d",
+                "category": "Other/Unknown",
+                "glass": "White wine glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Half-and-half",
+                "ingredient3": "Limeade",
+                "ingredient4": "Ice",
+                "ingredient5": "Nutmeg",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 oz ",
+                "measure10": "
+",
+                "measure2": "2 oz ",
+                "measure3": "2 oz ",
+                "measure4": "
+",
+                "measure5": "
+",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "
+",
+                "measure9": "
+",
+                "name": "Vodka Fizz",
+                "recipe": "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
+                "slug": "vodka-fizz",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              }
+            }
+          />
+          <CocktailCard
+            cocktail={
+              Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93f",
+                "category": "Ordinary Drink",
+                "glass": "Cocktail glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Dry Vermouth",
+                "ingredient3": "Olive",
+                "ingredient4": "",
+                "ingredient5": "",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "1 1/2 oz ",
+                "measure10": "",
+                "measure2": "3/4 oz ",
+                "measure3": "1 ",
+                "measure4": " ",
+                "measure5": " ",
+                "measure6": " ",
+                "measure7": " ",
+                "measure8": " ",
+                "measure9": "",
+                "name": "Vodka Martini",
+                "recipe": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
+                "slug": "vodka-martini",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              }
+            }
+          />
+          <CocktailCard
+            cocktail={
+              Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce941",
+                "category": "Ordinary Drink",
+                "glass": "Highball glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Tonic water",
+                "ingredient3": "",
+                "ingredient4": "",
+                "ingredient5": "",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 oz ",
+                "measure10": "",
+                "measure2": "
+",
+                "measure3": "
+",
+                "measure4": "
+",
+                "measure5": "
+",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "",
+                "measure9": "",
+                "name": "Vodka And Tonic",
+                "recipe": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
+                "slug": "vodka-and-tonic",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              }
+            }
+          />
+          <CocktailCard
+            cocktail={
+              Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce940",
+                "category": "Ordinary Drink",
+                "glass": "Collins Glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Schweppes Russchian",
+                "ingredient3": "",
+                "ingredient4": "",
+                "ingredient5": "",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 oz ",
+                "measure10": "",
+                "measure2": "
+",
+                "measure3": "
+",
+                "measure4": "
+",
+                "measure5": "
+",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "",
+                "measure9": "",
+                "name": "Vodka Russian",
+                "recipe": "Mix it as a ordinary drink .",
+                "slug": "vodka-russian",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              }
+            }
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="nav__brand"
+            >
+              MyBar
+            </h1>,
+            <input
+              className="nav__search"
+              onChange={[Function]}
+              placeholder="Search"
+              type="text"
+              value=""
+            />,
+          ],
+          "className": "nav",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "MyBar",
+              "className": "nav__brand",
+            },
+            "ref": null,
+            "rendered": "MyBar",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "nav__search",
+              "onChange": [Function],
+              "placeholder": "Search",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93c",
+                  "category": "Ordinary Drink",
+                  "glass": "Highball glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Lime",
+                  "ingredient3": "Angostura bitters",
+                  "ingredient4": "Tonic water",
+                  "ingredient5": "Ice",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "5 cl ",
+                  "measure10": " ",
+                  "measure2": "1/2 ",
+                  "measure3": "4 dashes ",
+                  "measure4": "1 dl Schweppes ",
+                  "measure5": "4 ",
+                  "measure6": " ",
+                  "measure7": " ",
+                  "measure8": " ",
+                  "measure9": " ",
+                  "name": "Long vodka",
+                  "recipe": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
+                  "slug": "long-vodka",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />,
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93e",
+                  "category": "Homemade Liqueur",
+                  "glass": "Collins Glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
+                  "ingredient1": "Water",
+                  "ingredient10": "",
+                  "ingredient2": "Sugar",
+                  "ingredient3": "Coffee",
+                  "ingredient4": "Vanilla",
+                  "ingredient5": "Vodka",
+                  "ingredient6": "Caramel coloring",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 cups ",
+                  "measure10": "
+",
+                  "measure2": "2 cups white ",
+                  "measure3": "1/2 cup instant ",
+                  "measure4": "1/2 ",
+                  "measure5": "1 1/2 cup ",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "
+",
+                  "measure9": "
+",
+                  "name": "Coffee-Vodka",
+                  "recipe": "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+                  "slug": "coffee-vodka",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />,
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93d",
+                  "category": "Other/Unknown",
+                  "glass": "White wine glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Half-and-half",
+                  "ingredient3": "Limeade",
+                  "ingredient4": "Ice",
+                  "ingredient5": "Nutmeg",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "
+",
+                  "measure2": "2 oz ",
+                  "measure3": "2 oz ",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "
+",
+                  "measure9": "
+",
+                  "name": "Vodka Fizz",
+                  "recipe": "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
+                  "slug": "vodka-fizz",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />,
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93f",
+                  "category": "Ordinary Drink",
+                  "glass": "Cocktail glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Dry Vermouth",
+                  "ingredient3": "Olive",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "1 1/2 oz ",
+                  "measure10": "",
+                  "measure2": "3/4 oz ",
+                  "measure3": "1 ",
+                  "measure4": " ",
+                  "measure5": " ",
+                  "measure6": " ",
+                  "measure7": " ",
+                  "measure8": " ",
+                  "measure9": "",
+                  "name": "Vodka Martini",
+                  "recipe": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
+                  "slug": "vodka-martini",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />,
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce941",
+                  "category": "Ordinary Drink",
+                  "glass": "Highball glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Tonic water",
+                  "ingredient3": "",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "",
+                  "measure2": "
+",
+                  "measure3": "
+",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "",
+                  "measure9": "",
+                  "name": "Vodka And Tonic",
+                  "recipe": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
+                  "slug": "vodka-and-tonic",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />,
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce940",
+                  "category": "Ordinary Drink",
+                  "glass": "Collins Glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Schweppes Russchian",
+                  "ingredient3": "",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "",
+                  "measure2": "
+",
+                  "measure3": "
+",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "",
+                  "measure9": "",
+                  "name": "Vodka Russian",
+                  "recipe": "Mix it as a ordinary drink .",
+                  "slug": "vodka-russian",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />,
+          ],
+          "className": "search-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "5a632eb967f5c02ab60ce93c",
+            "nodeType": "function",
+            "props": Object {
+              "cocktail": Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93c",
+                "category": "Ordinary Drink",
+                "glass": "Highball glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Lime",
+                "ingredient3": "Angostura bitters",
+                "ingredient4": "Tonic water",
+                "ingredient5": "Ice",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "5 cl ",
+                "measure10": " ",
+                "measure2": "1/2 ",
+                "measure3": "4 dashes ",
+                "measure4": "1 dl Schweppes ",
+                "measure5": "4 ",
+                "measure6": " ",
+                "measure7": " ",
+                "measure8": " ",
+                "measure9": " ",
+                "name": "Long vodka",
+                "recipe": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
+                "slug": "long-vodka",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5a632eb967f5c02ab60ce93e",
+            "nodeType": "function",
+            "props": Object {
+              "cocktail": Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93e",
+                "category": "Homemade Liqueur",
+                "glass": "Collins Glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
+                "ingredient1": "Water",
+                "ingredient10": "",
+                "ingredient2": "Sugar",
+                "ingredient3": "Coffee",
+                "ingredient4": "Vanilla",
+                "ingredient5": "Vodka",
+                "ingredient6": "Caramel coloring",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 cups ",
+                "measure10": "
+",
+                "measure2": "2 cups white ",
+                "measure3": "1/2 cup instant ",
+                "measure4": "1/2 ",
+                "measure5": "1 1/2 cup ",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "
+",
+                "measure9": "
+",
+                "name": "Coffee-Vodka",
+                "recipe": "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+                "slug": "coffee-vodka",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5a632eb967f5c02ab60ce93d",
+            "nodeType": "function",
+            "props": Object {
+              "cocktail": Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93d",
+                "category": "Other/Unknown",
+                "glass": "White wine glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Half-and-half",
+                "ingredient3": "Limeade",
+                "ingredient4": "Ice",
+                "ingredient5": "Nutmeg",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 oz ",
+                "measure10": "
+",
+                "measure2": "2 oz ",
+                "measure3": "2 oz ",
+                "measure4": "
+",
+                "measure5": "
+",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "
+",
+                "measure9": "
+",
+                "name": "Vodka Fizz",
+                "recipe": "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
+                "slug": "vodka-fizz",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5a632eb967f5c02ab60ce93f",
+            "nodeType": "function",
+            "props": Object {
+              "cocktail": Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce93f",
+                "category": "Ordinary Drink",
+                "glass": "Cocktail glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Dry Vermouth",
+                "ingredient3": "Olive",
+                "ingredient4": "",
+                "ingredient5": "",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "1 1/2 oz ",
+                "measure10": "",
+                "measure2": "3/4 oz ",
+                "measure3": "1 ",
+                "measure4": " ",
+                "measure5": " ",
+                "measure6": " ",
+                "measure7": " ",
+                "measure8": " ",
+                "measure9": "",
+                "name": "Vodka Martini",
+                "recipe": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
+                "slug": "vodka-martini",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5a632eb967f5c02ab60ce941",
+            "nodeType": "function",
+            "props": Object {
+              "cocktail": Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce941",
+                "category": "Ordinary Drink",
+                "glass": "Highball glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Tonic water",
+                "ingredient3": "",
+                "ingredient4": "",
+                "ingredient5": "",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 oz ",
+                "measure10": "",
+                "measure2": "
+",
+                "measure3": "
+",
+                "measure4": "
+",
+                "measure5": "
+",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "",
+                "measure9": "",
+                "name": "Vodka And Tonic",
+                "recipe": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
+                "slug": "vodka-and-tonic",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5a632eb967f5c02ab60ce940",
+            "nodeType": "function",
+            "props": Object {
+              "cocktail": Object {
+                "__v": 0,
+                "_id": "5a632eb967f5c02ab60ce940",
+                "category": "Ordinary Drink",
+                "glass": "Collins Glass",
+                "image": "http://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
+                "ingredient1": "Vodka",
+                "ingredient10": "",
+                "ingredient2": "Schweppes Russchian",
+                "ingredient3": "",
+                "ingredient4": "",
+                "ingredient5": "",
+                "ingredient6": "",
+                "ingredient7": "",
+                "ingredient8": "",
+                "ingredient9": "",
+                "measure1": "2 oz ",
+                "measure10": "",
+                "measure2": "
+",
+                "measure3": "
+",
+                "measure4": "
+",
+                "measure5": "
+",
+                "measure6": "
+",
+                "measure7": "
+",
+                "measure8": "",
+                "measure9": "",
+                "name": "Vodka Russian",
+                "recipe": "Mix it as a ordinary drink .",
+                "slug": "vodka-russian",
+                "tags": Array [
+                  "Alcoholic",
+                ],
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="nav"
+          >
+            <h1
+              className="nav__brand"
+            >
+              MyBar
+            </h1>
+            <input
+              className="nav__search"
+              onChange={[Function]}
+              placeholder="Search"
+              type="text"
+              value=""
+            />
+          </header>,
+          <div
+            className="search-container"
+          >
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93c",
+                  "category": "Ordinary Drink",
+                  "glass": "Highball glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Lime",
+                  "ingredient3": "Angostura bitters",
+                  "ingredient4": "Tonic water",
+                  "ingredient5": "Ice",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "5 cl ",
+                  "measure10": " ",
+                  "measure2": "1/2 ",
+                  "measure3": "4 dashes ",
+                  "measure4": "1 dl Schweppes ",
+                  "measure5": "4 ",
+                  "measure6": " ",
+                  "measure7": " ",
+                  "measure8": " ",
+                  "measure9": " ",
+                  "name": "Long vodka",
+                  "recipe": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
+                  "slug": "long-vodka",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93e",
+                  "category": "Homemade Liqueur",
+                  "glass": "Collins Glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
+                  "ingredient1": "Water",
+                  "ingredient10": "",
+                  "ingredient2": "Sugar",
+                  "ingredient3": "Coffee",
+                  "ingredient4": "Vanilla",
+                  "ingredient5": "Vodka",
+                  "ingredient6": "Caramel coloring",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 cups ",
+                  "measure10": "
+",
+                  "measure2": "2 cups white ",
+                  "measure3": "1/2 cup instant ",
+                  "measure4": "1/2 ",
+                  "measure5": "1 1/2 cup ",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "
+",
+                  "measure9": "
+",
+                  "name": "Coffee-Vodka",
+                  "recipe": "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+                  "slug": "coffee-vodka",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93d",
+                  "category": "Other/Unknown",
+                  "glass": "White wine glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Half-and-half",
+                  "ingredient3": "Limeade",
+                  "ingredient4": "Ice",
+                  "ingredient5": "Nutmeg",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "
+",
+                  "measure2": "2 oz ",
+                  "measure3": "2 oz ",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "
+",
+                  "measure9": "
+",
+                  "name": "Vodka Fizz",
+                  "recipe": "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
+                  "slug": "vodka-fizz",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93f",
+                  "category": "Ordinary Drink",
+                  "glass": "Cocktail glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Dry Vermouth",
+                  "ingredient3": "Olive",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "1 1/2 oz ",
+                  "measure10": "",
+                  "measure2": "3/4 oz ",
+                  "measure3": "1 ",
+                  "measure4": " ",
+                  "measure5": " ",
+                  "measure6": " ",
+                  "measure7": " ",
+                  "measure8": " ",
+                  "measure9": "",
+                  "name": "Vodka Martini",
+                  "recipe": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
+                  "slug": "vodka-martini",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce941",
+                  "category": "Ordinary Drink",
+                  "glass": "Highball glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Tonic water",
+                  "ingredient3": "",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "",
+                  "measure2": "
+",
+                  "measure3": "
+",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "",
+                  "measure9": "",
+                  "name": "Vodka And Tonic",
+                  "recipe": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
+                  "slug": "vodka-and-tonic",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />
+            <CocktailCard
+              cocktail={
+                Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce940",
+                  "category": "Ordinary Drink",
+                  "glass": "Collins Glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Schweppes Russchian",
+                  "ingredient3": "",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "",
+                  "measure2": "
+",
+                  "measure3": "
+",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "",
+                  "measure9": "",
+                  "name": "Vodka Russian",
+                  "recipe": "Mix it as a ordinary drink .",
+                  "slug": "vodka-russian",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                }
+              }
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="nav__brand"
+              >
+                MyBar
+              </h1>,
+              <input
+                className="nav__search"
+                onChange={[Function]}
+                placeholder="Search"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "nav",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "MyBar",
+                "className": "nav__brand",
+              },
+              "ref": null,
+              "rendered": "MyBar",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "nav__search",
+                "onChange": [Function],
+                "placeholder": "Search",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CocktailCard
+                cocktail={
+                  Object {
+                    "__v": 0,
+                    "_id": "5a632eb967f5c02ab60ce93c",
+                    "category": "Ordinary Drink",
+                    "glass": "Highball glass",
+                    "image": "http://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
+                    "ingredient1": "Vodka",
+                    "ingredient10": "",
+                    "ingredient2": "Lime",
+                    "ingredient3": "Angostura bitters",
+                    "ingredient4": "Tonic water",
+                    "ingredient5": "Ice",
+                    "ingredient6": "",
+                    "ingredient7": "",
+                    "ingredient8": "",
+                    "ingredient9": "",
+                    "measure1": "5 cl ",
+                    "measure10": " ",
+                    "measure2": "1/2 ",
+                    "measure3": "4 dashes ",
+                    "measure4": "1 dl Schweppes ",
+                    "measure5": "4 ",
+                    "measure6": " ",
+                    "measure7": " ",
+                    "measure8": " ",
+                    "measure9": " ",
+                    "name": "Long vodka",
+                    "recipe": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
+                    "slug": "long-vodka",
+                    "tags": Array [
+                      "Alcoholic",
+                    ],
+                  }
+                }
+              />,
+              <CocktailCard
+                cocktail={
+                  Object {
+                    "__v": 0,
+                    "_id": "5a632eb967f5c02ab60ce93e",
+                    "category": "Homemade Liqueur",
+                    "glass": "Collins Glass",
+                    "image": "http://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
+                    "ingredient1": "Water",
+                    "ingredient10": "",
+                    "ingredient2": "Sugar",
+                    "ingredient3": "Coffee",
+                    "ingredient4": "Vanilla",
+                    "ingredient5": "Vodka",
+                    "ingredient6": "Caramel coloring",
+                    "ingredient7": "",
+                    "ingredient8": "",
+                    "ingredient9": "",
+                    "measure1": "2 cups ",
+                    "measure10": "
+",
+                    "measure2": "2 cups white ",
+                    "measure3": "1/2 cup instant ",
+                    "measure4": "1/2 ",
+                    "measure5": "1 1/2 cup ",
+                    "measure6": "
+",
+                    "measure7": "
+",
+                    "measure8": "
+",
+                    "measure9": "
+",
+                    "name": "Coffee-Vodka",
+                    "recipe": "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+                    "slug": "coffee-vodka",
+                    "tags": Array [
+                      "Alcoholic",
+                    ],
+                  }
+                }
+              />,
+              <CocktailCard
+                cocktail={
+                  Object {
+                    "__v": 0,
+                    "_id": "5a632eb967f5c02ab60ce93d",
+                    "category": "Other/Unknown",
+                    "glass": "White wine glass",
+                    "image": "http://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
+                    "ingredient1": "Vodka",
+                    "ingredient10": "",
+                    "ingredient2": "Half-and-half",
+                    "ingredient3": "Limeade",
+                    "ingredient4": "Ice",
+                    "ingredient5": "Nutmeg",
+                    "ingredient6": "",
+                    "ingredient7": "",
+                    "ingredient8": "",
+                    "ingredient9": "",
+                    "measure1": "2 oz ",
+                    "measure10": "
+",
+                    "measure2": "2 oz ",
+                    "measure3": "2 oz ",
+                    "measure4": "
+",
+                    "measure5": "
+",
+                    "measure6": "
+",
+                    "measure7": "
+",
+                    "measure8": "
+",
+                    "measure9": "
+",
+                    "name": "Vodka Fizz",
+                    "recipe": "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
+                    "slug": "vodka-fizz",
+                    "tags": Array [
+                      "Alcoholic",
+                    ],
+                  }
+                }
+              />,
+              <CocktailCard
+                cocktail={
+                  Object {
+                    "__v": 0,
+                    "_id": "5a632eb967f5c02ab60ce93f",
+                    "category": "Ordinary Drink",
+                    "glass": "Cocktail glass",
+                    "image": "http://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
+                    "ingredient1": "Vodka",
+                    "ingredient10": "",
+                    "ingredient2": "Dry Vermouth",
+                    "ingredient3": "Olive",
+                    "ingredient4": "",
+                    "ingredient5": "",
+                    "ingredient6": "",
+                    "ingredient7": "",
+                    "ingredient8": "",
+                    "ingredient9": "",
+                    "measure1": "1 1/2 oz ",
+                    "measure10": "",
+                    "measure2": "3/4 oz ",
+                    "measure3": "1 ",
+                    "measure4": " ",
+                    "measure5": " ",
+                    "measure6": " ",
+                    "measure7": " ",
+                    "measure8": " ",
+                    "measure9": "",
+                    "name": "Vodka Martini",
+                    "recipe": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
+                    "slug": "vodka-martini",
+                    "tags": Array [
+                      "Alcoholic",
+                    ],
+                  }
+                }
+              />,
+              <CocktailCard
+                cocktail={
+                  Object {
+                    "__v": 0,
+                    "_id": "5a632eb967f5c02ab60ce941",
+                    "category": "Ordinary Drink",
+                    "glass": "Highball glass",
+                    "image": "http://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
+                    "ingredient1": "Vodka",
+                    "ingredient10": "",
+                    "ingredient2": "Tonic water",
+                    "ingredient3": "",
+                    "ingredient4": "",
+                    "ingredient5": "",
+                    "ingredient6": "",
+                    "ingredient7": "",
+                    "ingredient8": "",
+                    "ingredient9": "",
+                    "measure1": "2 oz ",
+                    "measure10": "",
+                    "measure2": "
+",
+                    "measure3": "
+",
+                    "measure4": "
+",
+                    "measure5": "
+",
+                    "measure6": "
+",
+                    "measure7": "
+",
+                    "measure8": "",
+                    "measure9": "",
+                    "name": "Vodka And Tonic",
+                    "recipe": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
+                    "slug": "vodka-and-tonic",
+                    "tags": Array [
+                      "Alcoholic",
+                    ],
+                  }
+                }
+              />,
+              <CocktailCard
+                cocktail={
+                  Object {
+                    "__v": 0,
+                    "_id": "5a632eb967f5c02ab60ce940",
+                    "category": "Ordinary Drink",
+                    "glass": "Collins Glass",
+                    "image": "http://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
+                    "ingredient1": "Vodka",
+                    "ingredient10": "",
+                    "ingredient2": "Schweppes Russchian",
+                    "ingredient3": "",
+                    "ingredient4": "",
+                    "ingredient5": "",
+                    "ingredient6": "",
+                    "ingredient7": "",
+                    "ingredient8": "",
+                    "ingredient9": "",
+                    "measure1": "2 oz ",
+                    "measure10": "",
+                    "measure2": "
+",
+                    "measure3": "
+",
+                    "measure4": "
+",
+                    "measure5": "
+",
+                    "measure6": "
+",
+                    "measure7": "
+",
+                    "measure8": "",
+                    "measure9": "",
+                    "name": "Vodka Russian",
+                    "recipe": "Mix it as a ordinary drink .",
+                    "slug": "vodka-russian",
+                    "tags": Array [
+                      "Alcoholic",
+                    ],
+                  }
+                }
+              />,
+            ],
+            "className": "search-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "5a632eb967f5c02ab60ce93c",
+              "nodeType": "function",
+              "props": Object {
+                "cocktail": Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93c",
+                  "category": "Ordinary Drink",
+                  "glass": "Highball glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Lime",
+                  "ingredient3": "Angostura bitters",
+                  "ingredient4": "Tonic water",
+                  "ingredient5": "Ice",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "5 cl ",
+                  "measure10": " ",
+                  "measure2": "1/2 ",
+                  "measure3": "4 dashes ",
+                  "measure4": "1 dl Schweppes ",
+                  "measure5": "4 ",
+                  "measure6": " ",
+                  "measure7": " ",
+                  "measure8": " ",
+                  "measure9": " ",
+                  "name": "Long vodka",
+                  "recipe": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
+                  "slug": "long-vodka",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5a632eb967f5c02ab60ce93e",
+              "nodeType": "function",
+              "props": Object {
+                "cocktail": Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93e",
+                  "category": "Homemade Liqueur",
+                  "glass": "Collins Glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
+                  "ingredient1": "Water",
+                  "ingredient10": "",
+                  "ingredient2": "Sugar",
+                  "ingredient3": "Coffee",
+                  "ingredient4": "Vanilla",
+                  "ingredient5": "Vodka",
+                  "ingredient6": "Caramel coloring",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 cups ",
+                  "measure10": "
+",
+                  "measure2": "2 cups white ",
+                  "measure3": "1/2 cup instant ",
+                  "measure4": "1/2 ",
+                  "measure5": "1 1/2 cup ",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "
+",
+                  "measure9": "
+",
+                  "name": "Coffee-Vodka",
+                  "recipe": "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+                  "slug": "coffee-vodka",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5a632eb967f5c02ab60ce93d",
+              "nodeType": "function",
+              "props": Object {
+                "cocktail": Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93d",
+                  "category": "Other/Unknown",
+                  "glass": "White wine glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Half-and-half",
+                  "ingredient3": "Limeade",
+                  "ingredient4": "Ice",
+                  "ingredient5": "Nutmeg",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "
+",
+                  "measure2": "2 oz ",
+                  "measure3": "2 oz ",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "
+",
+                  "measure9": "
+",
+                  "name": "Vodka Fizz",
+                  "recipe": "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
+                  "slug": "vodka-fizz",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5a632eb967f5c02ab60ce93f",
+              "nodeType": "function",
+              "props": Object {
+                "cocktail": Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce93f",
+                  "category": "Ordinary Drink",
+                  "glass": "Cocktail glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Dry Vermouth",
+                  "ingredient3": "Olive",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "1 1/2 oz ",
+                  "measure10": "",
+                  "measure2": "3/4 oz ",
+                  "measure3": "1 ",
+                  "measure4": " ",
+                  "measure5": " ",
+                  "measure6": " ",
+                  "measure7": " ",
+                  "measure8": " ",
+                  "measure9": "",
+                  "name": "Vodka Martini",
+                  "recipe": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
+                  "slug": "vodka-martini",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5a632eb967f5c02ab60ce941",
+              "nodeType": "function",
+              "props": Object {
+                "cocktail": Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce941",
+                  "category": "Ordinary Drink",
+                  "glass": "Highball glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Tonic water",
+                  "ingredient3": "",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "",
+                  "measure2": "
+",
+                  "measure3": "
+",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "",
+                  "measure9": "",
+                  "name": "Vodka And Tonic",
+                  "recipe": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
+                  "slug": "vodka-and-tonic",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5a632eb967f5c02ab60ce940",
+              "nodeType": "function",
+              "props": Object {
+                "cocktail": Object {
+                  "__v": 0,
+                  "_id": "5a632eb967f5c02ab60ce940",
+                  "category": "Ordinary Drink",
+                  "glass": "Collins Glass",
+                  "image": "http://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
+                  "ingredient1": "Vodka",
+                  "ingredient10": "",
+                  "ingredient2": "Schweppes Russchian",
+                  "ingredient3": "",
+                  "ingredient4": "",
+                  "ingredient5": "",
+                  "ingredient6": "",
+                  "ingredient7": "",
+                  "ingredient8": "",
+                  "ingredient9": "",
+                  "measure1": "2 oz ",
+                  "measure10": "",
+                  "measure2": "
+",
+                  "measure3": "
+",
+                  "measure4": "
+",
+                  "measure5": "
+",
+                  "measure6": "
+",
+                  "measure7": "
+",
+                  "measure8": "",
+                  "measure9": "",
+                  "name": "Vodka Russian",
+                  "recipe": "Mix it as a ordinary drink .",
+                  "slug": "vodka-russian",
+                  "tags": Array [
+                    "Alcoholic",
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
